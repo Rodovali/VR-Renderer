@@ -1,0 +1,23 @@
+{
+    "name": "pbr",
+    "shader": "res/shaders/materials/pbr.glsl",
+    "uniforms": [
+        { "name": "AlbedoMap", "type": "Bool" },
+        { "name": "MetalRoughnessMap", "type": "Bool" },
+        { "name": "NormalMap", "type": "Bool" },
+        { "name": "OcclusionMap", "type": "Bool" },
+        { "name": "EmissiveMap", "type": "Bool" },
+        { "name": "MetallicFactor", "type": "Float" },
+        { "name": "RoughnessFactor", "type": "Float" },
+        { "name": "AlbedoFactor", "type": "Vec3" },
+        { "name": "EmissiveFactor", "type": "Vec3" },
+        { "name": "AlphaCutoff", "type": "Float" }
+    ],
+    "textures": [
+        { "name": "sAlbedoMap", "slot": 4 },
+        { "name": "sMetalRoughnessMap", "slot": 5 },
+        { "name": "sOcclusionMap", "slot": 6 },
+        { "name": "sEmissiveMap", "slot": 7 },
+        { "name": "sNormalMap", "slot": 8 }
+    ]
+}

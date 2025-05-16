@@ -1,0 +1,3 @@
+@echo Building Visual Studio solution file...
+@call vendor\bin\premake5\premake5.exe vs2022
+@PAUSE

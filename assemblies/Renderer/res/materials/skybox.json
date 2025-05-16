@@ -1,0 +1,6 @@
+{
+    "name": "skybox",
+    "shader": "res/shaders/materials/skybox.glsl",
+    "uniforms": [],
+    "textures": []
+}
